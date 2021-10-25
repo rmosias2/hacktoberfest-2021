@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Noto+Serif:wght@400;700&display=swap');
+
+body {
+  font-family: 'Noto Serif', serif;
+  background-color: #F8F7F5;
+  margin: 0;
+}
+
+.caixa {
+  padding: 16px 24px;
+}
+
+.logo {
+  width: 131px;
+}
+
+.icone-logo {
+  position: absolute;
+  top: 16px;
+}
+
+.titulo {
+  font-family: 'Bubblegum Sans', cursive;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #D4A373;
+  text-align: center;
+}
+
+/* PERFIL DOS PETS */
+
+.perfil-foto {
+  width: 100%;
+  max-height: 376px;
+}
+
+.perfil-nome {
+  font-family: 'Bubblegum Sans', cursive;
+  background-color: #D4A373;
+  padding: 8px 8px 8px 24px;
+  border-radius: 0px 8px 8px 0px;
+  position: absolute;
+  top: 310px;
+  left: -1px;
+  color: #FEFAE0;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.botao-compartilhar {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  right: 16px;
+  top: 304px;
+  background: #E9EDC9;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.perfil-descricao {
+  font-size: 18px;
+  line-height: 27px;
+  color: #77695B;
+}
+
+/* LISTA DE PETS OU COLABORADORES */
+
+.lista {
+  display: flex;
+  flex-direction: column;
+  margin: 16px 0;
+}
+
+.item {
+  display: flex;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  padding: 8px;
+  text-decoration: none;
+}
+
+.imagem {
+  width: 72px;
+  height: 72px;
+  border-radius: 8px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+}
+
+.nome {
+  color: #717F42;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.descricao {
+  color: #D4A373;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.textinho {
+  color: #77695B;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* PAGINA DE COMPARTILHAR */
+
+.icone-fechar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.caixa-qrcode {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.imagem-qrcode {
+  border-radius: 16px;
+}
+
+.icone-copiar {
+  margin-right: 10px;
+}
+
+.botao-compartilhe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #E9EDC9;
+  color: #717F42;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border-radius: 8px;
+  border: none;
+  height: 48px;
+  margin-top: 24px;
+}
+
+/* RODAPÉ */
+
+.rodape {
+  width: 100%;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.rodape-texto {
+  color: #77695B;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.rodape-link {
+  font-weight: bold;
+  color: #77695B;
+}
