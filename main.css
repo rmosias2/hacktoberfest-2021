@@ -1,13 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Noto+Serif:wght@400;700&display=swap');
 
+html, body {
+  height: 100vh;
+}
+
 body {
   font-family: 'Noto Serif', serif;
   background-color: #F8F7F5;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .caixa {
-  padding: 16px 24px;
+  padding: 16px 24px 0 24px;
 }
 
 .logo {
@@ -76,7 +83,7 @@ body {
 .lista {
   display: flex;
   flex-direction: column;
-  margin: 16px 0;
+  margin-top: 16px;
 }
 
 .item {
@@ -164,7 +171,7 @@ body {
 .rodape {
   width: 100%;
   text-align: center;
-  margin-top: 16px;
+  padding: 16px 0;
 }
 
 .rodape-texto {
