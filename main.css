@@ -43,6 +43,7 @@ body {
 .perfil-foto {
   width: 100%;
   max-height: 376px;
+  border-radius: 16px;
 }
 
 .perfil-nome {
@@ -194,17 +195,14 @@ body {
   color: #77695B;
 }
 
-@media (min-width: 426px)
-{
+@media (min-width: 767px) {
   .perfil-foto {
     max-height: 560px;
     object-fit: cover;
   }
-
   .perfil-descricao {
     font-size: 20px;
   }
-
   .perfil-nome {
     width: 299px;
     height: 63px;
@@ -215,7 +213,6 @@ body {
   .botao-compartilhar {
     top: 470px;
   }
-
   .caixa-qrcode > img  {
     max-width: 400px;
   }
@@ -224,5 +221,63 @@ body {
   }
   .botao-compartilhe {
     width: 192px;
+  }
+  .lista-equipe, .lista-pet {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .item-equipe {
+    width: calc(50% - 64px);
+    padding: 16px;
+  }
+  .item-pet {
+    max-width: 224px;
+    width: 32%;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+  }
+  .imagem-pet {
+    width: 192px;
+    height: 192px;
+  }
+  .logo {
+    width: 152px;
+  }
+}
+
+@media (min-width: 1023px) {
+  .item-pet {
+    max-width: 276px;
+    width: 25%;
+  }
+  .perfil {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: flex-start;
+  }
+  .perfil-foto {
+    height: 560px;
+    flex: 1;
+    object-fit: cover;
+    margin-left: 40px;
+  }
+  .perfil-nome {
+    left: 40px;
+    top: 500px;
+  }
+  .caixa-perfil {
+    flex: 1;
+    padding: 0;
+    margin: 0 40px 0 70px;
+  }
+  .icone-logo {
+    left: 16px;
+  }
+  .botao-compartilhar {
+    top: 510px;
+    left: 42%;
   }
 }
